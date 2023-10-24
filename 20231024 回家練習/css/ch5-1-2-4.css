@@ -1,0 +1,9 @@
+#font2{
+    font-size: 30px;
+    color: rgba(0, 0,255, 1.0);
+}
+
+#font2 span{
+    font-size: 34px;
+    color: darkgreen;
+}

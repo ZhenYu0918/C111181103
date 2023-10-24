@@ -1,0 +1,31 @@
+p{
+    font: 16px normal bold sans-serif,"新細明體";
+    color: red;
+}
+
+p span{
+    font-size: 20px;
+    color: darkblue;
+}
+
+
+.font1{
+    font-size: 24px;
+    color: #00ff00;
+
+}
+
+.font1 span{
+    font-size: 28px;
+    color: darkred;
+}
+
+#font2{
+    font-size: 30px;
+    color: rgba(0, 0,255, 1.0);
+}
+
+#font2 span{
+    font-size: 34px;
+    color: darkgreen;
+}
