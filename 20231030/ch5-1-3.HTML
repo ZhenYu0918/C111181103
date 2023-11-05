@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+    <style>
+        li{
+            list-style: decimal;  
+        }
+        
+        #myUL1 li{
+            list-style: circle;      /*圈圈*/
+        }
+
+        #myUL2>li{
+            list-style: lower-alpha;  /*小寫*/
+        }
+        
+    </style>
+    <!--  #myUL1 li 圈圈-->
+    <!--  #myUL2>li 小寫-->
+
+    <ul>
+        <li>A</li>
+        <ul id="myUL1">
+            <li>A-1</li>
+            <li>A-2</li>
+        <ul>
+            <li>A-2-1</li>
+            <li>A-2-2</li>
+        </ul>
+        <li>A-3</li>
+    </ul>
+    <li>B</li>
+
+</html>
